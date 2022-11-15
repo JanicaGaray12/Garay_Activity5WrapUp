@@ -1,0 +1,151 @@
+/* Fonts 
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+:root {
+  --spacer: 3rem;
+  --box-shadow: 0.3rem 0.3rem 1.5rem rgb(0, 0, 0, 0.15);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  padding: 10px 100px;
+  font-family: arial;
+}
+
+h1,
+h2,
+h3,
+p,
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Utilities */
+ul[class],
+ol[class] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-spacer, var(--spacer));
+}
+/* Start Here */
+
+header{
+  margin-bottom: 50px;
+}
+
+section{
+  margin-bottom: 30px;
+}
+
+.top-nav{
+  float: right;
+  margin: 5px;
+}
+
+.top-nav li{
+  display: inline;
+  margin:  5px;
+  font-size: 18px;
+  color:#3D2892;
+}
+ a{
+  font-size: 18px;
+  margin: 5px;
+ }
+.btn{
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #786fbf;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.pull-right{
+  float: right;
+  width: 26px;
+padding-right: 20%;
+}
+p{
+  font-size: 20px;
+  font-style: arial;
+  color: #4A4A4A;
+}
+.logo{
+  margin:  5px;
+  font-size: 26px;
+  color: #F55D3A;
+  display: inline;
+}
+.b{
+  color:#050505;
+}
+h1{
+  color: #FF0000;
+  font-style: serif;
+  font-size: 64px;
+}
+h2{
+  font-size: 32px; 
+  font-weight: normal
+}
+h3{
+  font-size: 28px;
+  color: #3D2892;
+}
+.paramdam img{
+  float: left;
+  margin-right: 40px;
+  padding-left: 50px;
+}
+.senyales img{
+  float: right;
+  margin-top: 40px;
+  margin-left: 80px;
+  padding-right: 10%;
+
+}
+.stories p{
+ margin-right: 90px;
+ margin-bottom: 250px;
+ font-family: serif;
+ padding-left: 80px;
+}
+.stories h4{
+  font-size: 40px;
+  text-align: center;
+  color: #3D2892;
+}
+.authors{
+  display: flex;
+  margin: 15px;
+}
+
+.authors-container{
+  display: inline-grid;
+  text-align: center;
+  width: 33%;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  .authors-container{
+        display: block;
+        text-align: center
+      }
